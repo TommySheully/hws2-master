@@ -6,25 +6,40 @@ import FriendMessage from './friend-message/FriendMessage'
 import avatar from './avatar.png'
 
 /*
-* 1 - описать тип MessageType
-* 2 - описать тип MessagePropsType в файле Message.tsx
-* 3 - в файле Message.tsx отобразить приходящие данные
-* 4 - выполнить пункты 2, 3 в файле FriendMessage.tsx
+* 1 - описать тип MessageType !
+* 2 - описать тип MessagePropsType в файле Message.tsx !
+* 3 - в файле Message.tsx отобразить приходящие данные !
+* 4 - выполнить пункты 2, 3 в файле FriendMessage.tsx !
 * 5 - сделать стили в соответствии с дизайном
 * */
 
 // нужно создать правильный тип вместо any
-export type MessageType = any
+export type MessageType = {
+    id: number,
+    user: userType,
+    message: messageType,
+}
+
+export type userType = {
+    avatar: string,
+    name: string,
+}
+
+export type messageType = {
+    time: string,
+    text: string,
+}
+
 
 // структуру объекта не менять
 export const message0: MessageType = {
     id: 0,
     user: {
-        avatar: avatar, // можно менять
-        name: 'Some Name',  // можно менять
+        avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg', // можно менять
+        name: 'Dimych',  // можно менять
     },
     message: {
-        text: 'some textsome textsome textsome textsome textsome textsome text', // можно менять
+        text: 'Привет! Привет! Привет! Привет!', // можно менять
         time: '22:00', // можно менять
     },
 }
@@ -35,7 +50,7 @@ export const friendMessage0: MessageType = {
         name: 'Friend Name', // можно менять
     },
     message: {
-        text: 'зеркальное сообщение для тренировки css', // можно менять
+        text: 'зеркальное сообщение', // можно менять
         time: '22:00', // можно менять
     },
 }
