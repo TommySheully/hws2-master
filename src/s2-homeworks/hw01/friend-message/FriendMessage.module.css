@@ -60,7 +60,7 @@
     word-break: break-word;
     min-width: 150px;
     align-items: flex-end;
-    white-space: pre-wrap;
+    /*white-space: pre-wrap;*/
 }
 
 .friendTime {
