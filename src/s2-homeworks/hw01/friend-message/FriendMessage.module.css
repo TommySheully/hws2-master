@@ -3,7 +3,8 @@
     flex-flow: wrap-reverse;
     align-items: flex-end;
     margin: 10px;
-    height: 100px;
+    height-min: 100px;
+    height: 50%;
     border-radius: 5px;
 }
 
@@ -31,7 +32,7 @@
     background-color: cornflowerblue;
     border-radius: 10px 10px 0px 10px;;
     min-width: 150px;
-    max-width: 300px;
+    max-width: 750px;
     position: relative;
     word-break: break-word;
 }
@@ -58,7 +59,8 @@
     font-size: 16px;
     word-break: break-word;
     min-width: 150px;
-    max-width: 414px;
+    align-items: flex-end;
+    white-space: pre-wrap;
 }
 
 .friendTime {

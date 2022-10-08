@@ -3,16 +3,17 @@
     flex-flow: wrap;
     align-items: flex-end;
     margin: 10px;
-    height: 100px;
-    width: 400px;
+    height-min: 100px;
+    height-max: 50%;
+    width: 50%;
     border-radius: 5px;
 }
-
 
 .imageAndText {
     display: flex;
     flex-flow: row wrap;
     position: relative;
+    align-items: flex-end;
 }
 
 .messageImg {
@@ -29,9 +30,10 @@
     background-color: aliceblue;
     border-radius: 10px 10px 10px 0px;;
     margin: 10px;
-    min-width: 150px;
-    max-width: 300px;
+    min-width: 250px;
+    max-width: 750px;
     position: relative;
+
 }
 
 .text:after {
@@ -56,9 +58,10 @@
     font-size: 16px;
     word-break: break-word;
     min-width: 150px;
-    max-width: 414px;
     word-wrap: break-word;
+    white-space: pre-wrap;
 }
+
 
 .time {
     display: flex;

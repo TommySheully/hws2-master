@@ -5,11 +5,21 @@
 }
 
 .textarea {
-    border-radius: 10px;
+    resize: none;
+    height: 40px;
     width: 976px;
-    height: 200px;
+    border-radius: 25px;
     order: 1;
-    margin-left: 80px;
+    margin: 5px 120px 5px 180px;
+    padding: 15px;
+    outline : none;
+    wrap: of;
+    overflow: hidden;
+}
+
+.textarea-placeholder {
+    text-align: center;
+    font-size: 16px;
 }
 
 .button {
