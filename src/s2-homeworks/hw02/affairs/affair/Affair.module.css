@@ -29,3 +29,8 @@
     font-weight: 900;
     cursor: pointer;
 }
+
+.closeButton:hover {
+    text-shadow: 0 0 5px blueviolet;
+
+}
