@@ -3,7 +3,6 @@ import Message from './message/Message'
 import MessageSender from './message-sender/MessageSender'
 import s2 from '../../s1-main/App.module.css'
 import FriendMessage from './friend-message/FriendMessage'
-import avatar from './avatar.png'
 
 /*
 * 1 - описать тип MessageType !
@@ -36,7 +35,7 @@ export const message0: MessageType = {
     id: 0,
     user: {
         avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg', // можно менять
-        name: 'Dimych',  // можно менять
+        name: 'Димыч',  // можно менять
     },
     message: {
         text: 'Привет! Привет! Привет! Привет!', // можно менять
