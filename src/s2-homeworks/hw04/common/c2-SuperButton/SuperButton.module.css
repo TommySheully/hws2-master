@@ -2,12 +2,15 @@
 }
 
 .disabled {
+
 }
 
 .secondary {
+    background-color: #DDEEFF;
 }
 
 .default {
+    background-color: #0066cc;
 }
 
 .red {
