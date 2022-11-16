@@ -1,15 +1,27 @@
 .radio {
+    padding-left: 100px;
+    accent-color: black;
 }
 
 .radio::before {
+
+
 }
 
 
 .radio:checked::before {
+
 }
 
 .label {
+    display: flex;
+    margin-left: 50px;
 }
 
 .options {
+
+}
+
+.span {
+    padding-left: 10px;
 }
