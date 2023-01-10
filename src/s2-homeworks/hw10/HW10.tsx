@@ -37,7 +37,7 @@ const HW10 = () => {
             <div className={s2.hw}>
                 {isLoading ? (
                     <div id={'hw10-loading'}>
-                        <Loader/>   // нужно доделать стили
+                        <Loader/>
                     </div>
                 ) : (
                     <SuperButton
